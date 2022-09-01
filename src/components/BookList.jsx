@@ -1,8 +1,17 @@
 import React from 'react'
+import Book from './Book'
 
 const BookList = () => {
   return (
-    <div>BookList</div>
+    <section className='booklist'>
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+
+    </section>
   )
 }
 

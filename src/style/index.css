@@ -21,8 +21,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 4 450px;
   margin: 0 15px;
   padding: 20px;
   margin-top: 50px;
@@ -36,11 +36,13 @@ body {
 }
 
 .book-title {
-  font-size: .9rem;
+  font-size: 1rem;
   margin-top: 20px;
 }
 
 .book-author {
-  font-size: 1rem;
-  margin: 20px 0;
+  font-size: .9rem;
+  /* font-weight: bold; */
+  font-style: italic;
+  margin-bottom: 20px;
 }

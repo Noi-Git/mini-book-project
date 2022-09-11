@@ -2,7 +2,7 @@ import React from 'react'
 import '../style/index.css'
 
 const Book = (props) => {
-  const {img, title, author} = props.book
+  const {img, title, author} = props
   return (
     <article className='book'>
       <img className='book-image' src={img} alt={title} />

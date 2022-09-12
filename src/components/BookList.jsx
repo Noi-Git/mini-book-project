@@ -1,16 +1,15 @@
 import React from 'react'
+import {books} from './booksData'
 import Book from './Book'
 
 const BookList = () => {
   return (
     <section className='booklist'>
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-
+      {books.map( book => {
+        return (
+          <Book  key={book.id} {...book}></Book>
+        )
+      })}
     </section>
   )
 }
